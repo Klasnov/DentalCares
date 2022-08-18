@@ -1,0 +1,1385 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon May 17 00:55:03 2021] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 February 2021 11:09:21
+os: Linux-3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020
+nodename: VM-8-4-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /opt/ZHUYA_web
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /opt/ZHUYA_web/
+your processes number limit is 15066
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Nov 16 2020, 16:55:22)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Python main interpreter initialized at 0x222cf90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /usr/bin/python3.6 to pythonpath.
+added /usr/local/lib/python3.6/site-packages/ to pythonpath.
+/opt/ZHUYA_web
+num_classes 2
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x222cf90 pid: 8770 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 8770)
+spawned uWSGI worker 1 (pid: 8884, cores: 2)
+spawned uWSGI worker 2 (pid: 8886, cores: 2)
+spawned uWSGI worker 3 (pid: 8888, cores: 2)
+spawned uWSGI worker 4 (pid: 8890, cores: 2)
+Not Found: /
+[pid: 8890|app: 0|req: 1/1] 223.73.111.177 () {42 vars in 693 bytes} [Sun May 16 16:55:08 2021] GET / => generated 3474 bytes in 300 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon May 17 23:28:30 2021] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 February 2021 11:09:21
+os: Linux-3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020
+nodename: VM-8-4-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /opt/ZHUYA_web
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /opt/ZHUYA_web/
+your processes number limit is 15066
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Nov 16 2020, 16:55:22)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Python main interpreter initialized at 0x179efa0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /usr/bin/python3.6 to pythonpath.
+added /usr/local/lib/python3.6/site-packages/ to pythonpath.
+/opt/ZHUYA_web
+num_classes 2
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0x179efa0 pid: 16321 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16321)
+spawned uWSGI worker 1 (pid: 16497, cores: 2)
+spawned uWSGI worker 2 (pid: 16499, cores: 2)
+spawned uWSGI worker 3 (pid: 16501, cores: 2)
+spawned uWSGI worker 4 (pid: 16503, cores: 2)
+temp.png
+temp.png
+tensor([0])
+[pid: 16503|app: 0|req: 2/1] 54.86.50.139 () {50 vars in 795 bytes} [Mon May 17 15:35:16 2021] POST /miniapp/ => generated 68 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+yUjZBjknUuWkc4e46ee315bce1b4c589a39a891486c5.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(116.01909, 176.17792, 188.85909, 240.2793)
+356 (512, 512, 3)
+(64, 72, 3)
+398 yUjZBjknUuWkc4e46ee315bce1b4c589a39a891486c5
+/opt/ZHUYA_web/static/media/crop/yUjZBjknUuWkc4e46ee315bce1b4c589a39a891486c5_0abc.png
+----------------
+./ZHUYA_web/controller.py:353: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  output = torch.nn.functional.softmax(socores)
+/
+[0.9669731 0.0330269]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/yUjZBjknUuWkc4e46ee315bce1b4c589a39a891486c5.jpg
+===========================
+[pid: 16503|app: 0|req: 3/2] 223.73.111.177 () {46 vars in 976 bytes} [Mon May 17 15:35:33 2021] POST /miniapp/ => generated 101 bytes in 1766 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+TR2HPRuEP6aKcd48a89797fa76233ceace94a37405ed.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(343.172, 226.37984, 432.38394, 314.07626)
+356 (512, 512, 3)
+(88, 89, 3)
+398 TR2HPRuEP6aKcd48a89797fa76233ceace94a37405ed
+/opt/ZHUYA_web/static/media/crop/TR2HPRuEP6aKcd48a89797fa76233ceace94a37405ed_0abc.png
+----------------
+/
+[0.00840799 0.99159205]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/TR2HPRuEP6aKcd48a89797fa76233ceace94a37405ed.jpg
+===========================
+[pid: 16503|app: 0|req: 4/3] 223.73.111.177 () {46 vars in 976 bytes} [Mon May 17 15:37:47 2021] POST /miniapp/ => generated 101 bytes in 1705 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+cyLGfYIO6U10c60a780e695e594281794648cb95c092.jpg
+tensor([0])
+[pid: 16503|app: 0|req: 5/4] 223.73.111.177 () {46 vars in 976 bytes} [Mon May 17 15:43:42 2021] POST /miniapp/ => generated 68 bytes in 155 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_5b8869073e7e51979934fb5956b6ce1a.jpg
+tensor([0])
+[pid: 16503|app: 0|req: 6/5] 223.73.111.149 () {48 vars in 937 bytes} [Mon May 17 15:45:18 2021] POST /miniapp/ => generated 68 bytes in 142 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_5b8869073e7e51979934fb5956b6ce1a.jpg
+tensor([0])
+[pid: 16503|app: 0|req: 7/6] 223.73.111.149 () {48 vars in 937 bytes} [Mon May 17 15:45:36 2021] POST /miniapp/ => generated 68 bytes in 142 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 1/7] 44.229.42.158 () {38 vars in 528 bytes} [Mon May 17 16:01:38 2021] GET / => generated 3583 bytes in 257 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 16503|app: 0|req: 8/8] 171.13.14.76 () {56 vars in 935 bytes} [Mon May 17 16:23:30 2021] GET / => generated 3587 bytes in 4 msecs (HTTP/2.0 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16503|app: 0|req: 9/9] 42.236.10.91 () {36 vars in 418 bytes} [Mon May 17 16:25:58 2021] HEAD / => generated 3588 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 2/10] 42.236.10.71 () {42 vars in 815 bytes} [Mon May 17 16:25:59 2021] HEAD / => generated 3588 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+F12tFmoDQC3t42a02369f6711aa2c6228d9dbcae90da.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+>>>>>>>>>>>>>>>>>> tensor(0.5452)
+(71, 94, 3)
+398 F12tFmoDQC3t42a02369f6711aa2c6228d9dbcae90da
+/opt/ZHUYA_web/static/media/crop/F12tFmoDQC3t42a02369f6711aa2c6228d9dbcae90da_0abc.png
+----------------
+/
+[0.00181286 0.9981871 ]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/F12tFmoDQC3t42a02369f6711aa2c6228d9dbcae90da.jpg
+===========================
+[pid: 16503|app: 0|req: 10/11] 223.73.111.177 () {46 vars in 978 bytes} [Mon May 17 16:53:26 2021] POST /miniapp/ => generated 101 bytes in 1548 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+Fj8XWlzT9ya684f4aad52e8a2b96a5be3552145402a4.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+>>>>>>>>>>>>>>>>>> tensor(0.4476)
+(42, 51, 3)
+398 Fj8XWlzT9ya684f4aad52e8a2b96a5be3552145402a4
+/opt/ZHUYA_web/static/media/crop/Fj8XWlzT9ya684f4aad52e8a2b96a5be3552145402a4_0abc.png
+----------------
+/
+[0.29378396 0.70621604]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/Fj8XWlzT9ya684f4aad52e8a2b96a5be3552145402a4.jpg
+===========================
+[pid: 16503|app: 0|req: 11/12] 223.73.111.177 () {46 vars in 978 bytes} [Mon May 17 16:53:55 2021] POST /miniapp/ => generated 101 bytes in 1587 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(104.51668, 309.33432, 177.78967, 372.22235)
+356 (512, 512, 3)
+(63, 73, 3)
+398 TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355
+/opt/ZHUYA_web/static/media/crop/TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355_0abc.png
+----------------
+/
+[0.00457423 0.99542576]
+pre_label 0
+The label is N
+------------------
+(60.614143, 111.42206, 155.62128, 164.51022)
+356 (512, 512, 3)
+(53, 95, 3)
+398 TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355
+/opt/ZHUYA_web/static/media/crop/TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355_1abc.png
+----------------
+/
+[1.8112287e-04 9.9981886e-01]
+pre_label 0
+The label is N
+------------------
+(399.39636, 323.9111, 462.43338, 381.66684)
+356 (512, 512, 3)
+(58, 63, 3)
+398 TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355
+/opt/ZHUYA_web/static/media/crop/TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355_2abc.png
+----------------
+/
+[0.06796019 0.9320398 ]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/TUC4Ymw6ZNwz9cad29a5f788dcc17882fe8134ece355.jpg
+===========================
+[pid: 16503|app: 0|req: 12/13] 223.73.111.177 () {46 vars in 978 bytes} [Mon May 17 16:55:35 2021] POST /miniapp/ => generated 101 bytes in 2859 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 3/14] 223.73.111.177 () {44 vars in 753 bytes} [Mon May 17 17:31:17 2021] GET / => generated 3583 bytes in 3 msecs (HTTP/2.0 404) 3 headers in 102 bytes (1 switches on core 0)
+Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+>>>>>>>>>>>>>>>>>> tensor(0.2947)
+(67, 69, 3)
+398 Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f
+/opt/ZHUYA_web/static/media/crop/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f_0abc.png
+----------------
+/
+[9.997552e-01 2.447503e-04]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+===========================
+[pid: 16503|app: 0|req: 13/15] 223.73.111.177 () {46 vars in 978 bytes} [Mon May 17 17:48:15 2021] POST /miniapp/ => generated 86 bytes in 1706 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 4/16] 193.169.255.27 () {36 vars in 400 bytes} [Mon May 17 18:00:05 2021] GET / => generated 3581 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16503|app: 0|req: 14/17] 212.129.4.48 () {36 vars in 403 bytes} [Mon May 17 18:12:14 2021] GET / => generated 3581 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 5/18] 45.155.205.126 () {40 vars in 562 bytes} [Mon May 17 20:55:38 2021] GET / => generated 3581 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 16499|app: 0|req: 1/19] 71.6.232.7 () {40 vars in 552 bytes} [Tue May 18 00:24:59 2021] GET / => generated 3581 bytes in 268 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 16501|app: 0|req: 6/20] 192.241.217.163 () {40 vars in 463 bytes} [Tue May 18 02:19:09 2021] GET / => generated 3581 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 7/21] 80.82.77.192 () {40 vars in 554 bytes} [Tue May 18 03:06:08 2021] GET / => generated 3581 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+>>>>>>>>>>>>>>>>>> tensor(0.2947)
+(67, 69, 3)
+398 Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f
+/opt/ZHUYA_web/static/media/crop/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f_0abc.png
+----------------
+/
+[9.997552e-01 2.447503e-04]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+===========================
+[pid: 16503|app: 0|req: 15/22] 223.73.111.177 () {46 vars in 978 bytes} [Tue May 18 04:09:45 2021] POST /miniapp/ => generated 86 bytes in 1706 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+tensor([1])
+tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(355.08997, 179.07045, 476.91812, 280.4845)
+356 (512, 512, 3)
+(101, 121, 3)
+398 tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329
+/opt/ZHUYA_web/static/media/crop/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329_0abc.png
+----------------
+./ZHUYA_web/controller.py:353: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  output = torch.nn.functional.softmax(socores)
+/
+[9.9995577e-01 4.4208286e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+===========================
+[pid: 16501|app: 0|req: 8/23] 223.73.111.148 () {48 vars in 1056 bytes} [Tue May 18 04:10:08 2021] POST /miniapp/ => generated 86 bytes in 2521 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(355.08997, 179.07045, 476.91812, 280.4845)
+356 (512, 512, 3)
+(101, 121, 3)
+398 tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329
+/opt/ZHUYA_web/static/media/crop/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329_0abc.png
+tensor([1])
+----------------
+./ZHUYA_web/controller.py:353: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  output = torch.nn.functional.softmax(socores)
+/
+[9.9995577e-01 4.4208286e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+===========================
+[pid: 16499|app: 0|req: 2/24] 223.73.111.148 () {48 vars in 1056 bytes} [Tue May 18 04:10:09 2021] POST /miniapp/ => generated 86 bytes in 3455 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(355.08997, 179.07045, 476.91812, 280.4845)
+356 (512, 512, 3)
+(101, 121, 3)
+398 tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329
+/opt/ZHUYA_web/static/media/crop/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329_0abc.png
+----------------
+/
+[9.9995577e-01 4.4208286e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_7e93a70f5398b8096908d6ec95c8f6d4ca4df173121d9329.jpg
+===========================
+[pid: 16503|app: 0|req: 16/25] 223.73.111.148 () {48 vars in 1056 bytes} [Tue May 18 04:10:10 2021] POST /miniapp/ => generated 86 bytes in 2573 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 9/26] 65.49.20.67 () {34 vars in 373 bytes} [Tue May 18 04:16:53 2021] GET / => generated 3581 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+tensor([1])
+tensor([1])
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+----------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+----------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+----------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16501|app: 0|req: 11/27] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:13 2021] POST /miniapp/ => generated 86 bytes in 5507 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 2/28] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:13 2021] POST /miniapp/ => generated 113506 bytes in 5672 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+tensor([1])
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16503|app: 0|req: 17/29] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:13 2021] POST /miniapp/ => generated 86 bytes in 6165 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+tensor([1])
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16499|app: 0|req: 4/30] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:13 2021] POST /miniapp/ => generated 86 bytes in 6814 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+----------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 18/31] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:19 2021] POST /miniapp/ => generated 113512 bytes in 4622 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16501|app: 0|req: 12/32] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:18 2021] POST /miniapp/ => generated 86 bytes in 5373 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+tensor([1])
+tensor([1])
+----------------
+----------------
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+./ZHUYA_web/controller.py:353: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  output = torch.nn.functional.softmax(socores)
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16499|app: 0|req: 5/33] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:20 2021] POST /miniapp/ => generated 86 bytes in 6944 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+[pid: 16497|app: 0|req: 3/34] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:19 2021] POST /miniapp/ => generated 86 bytes in 8126 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+----------------
+tensor([1])
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/
+[9.9997294e-01 2.7060139e-05]
+pre_label 1
+The label is Y
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/tmp_639217878ba16a55e16078d85afd1694.jpg
+===========================
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 19/35] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:24 2021] POST /miniapp/ => generated 113512 bytes in 4785 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+[pid: 16501|app: 0|req: 13/36] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:24 2021] POST /miniapp/ => generated 86 bytes in 4693 msecs (HTTP/2.0 200) 3 headers in 100 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 4/37] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:27 2021] POST /miniapp/ => generated 113506 bytes in 5037 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16499|app: 0|req: 6/38] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:27 2021] POST /miniapp/ => generated 113506 bytes in 5256 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16501|app: 0|req: 14/39] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:28 2021] POST /miniapp/ => generated 113506 bytes in 3505 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+tensor([1])
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 20/40] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:28 2021] POST /miniapp/ => generated 113512 bytes in 4632 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16501|app: 0|req: 15/41] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:32 2021] POST /miniapp/ => generated 113506 bytes in 3445 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 5/42] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:32 2021] POST /miniapp/ => generated 113506 bytes in 4428 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16499|app: 0|req: 7/43] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:32 2021] POST /miniapp/ => generated 113506 bytes in 4590 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+tmp_639217878ba16a55e16078d85afd1694.jpg
+tensor([1])
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 21/44] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:33 2021] POST /miniapp/ => generated 113512 bytes in 4630 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16501|app: 0|req: 16/45] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:35 2021] POST /miniapp/ => generated 113506 bytes in 3736 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 6/46] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:36 2021] POST /miniapp/ => generated 113506 bytes in 3143 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(668.5327, 617.8484, 1054.4708, 912.50354)
+356 (1902, 1284, 3)
+(295, 386, 3)
+398 tmp_639217878ba16a55e16078d85afd1694
+/opt/ZHUYA_web/static/media/crop/tmp_639217878ba16a55e16078d85afd1694_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16499|app: 0|req: 8/47] 58.60.1.102 () {48 vars in 934 bytes} [Tue May 18 05:06:36 2021] POST /miniapp/ => generated 113506 bytes in 3108 msecs (HTTP/2.0 500) 4 headers in 130 bytes (1 switches on core 1)
+Not Found: /owa/auth/logon.aspx
+[pid: 16501|app: 0|req: 17/48] 192.241.220.203 () {40 vars in 558 bytes} [Tue May 18 05:48:31 2021] GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f => generated 3685 bytes in 23 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 1)
+Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+>>>>>>>>>>>>>>>>>> tensor(0.2947)
+(67, 69, 3)
+398 Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f
+/opt/ZHUYA_web/static/media/crop/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 297, in detect_and_cls
+    result, score = crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16499|app: 0|req: 9/49] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:53:47 2021] POST /miniapp/ => generated 114037 bytes in 3112 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+>>>>>>>>>>>>>>>>>> tensor(0.2947)
+(67, 69, 3)
+398 Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f
+/opt/ZHUYA_web/static/media/crop/Y3nF9QlEZNOW9de6c9ef8c254c2d8535a22ac178ac7f_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 297, in detect_and_cls
+    result, score = crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 22/50] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:53:56 2021] POST /miniapp/ => generated 114043 bytes in 1403 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 23/51] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:54:17 2021] POST /miniapp/ => generated 113923 bytes in 1624 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16503|app: 0|req: 24/52] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:54:28 2021] POST /miniapp/ => generated 113648 bytes in 1883 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16501|app: 0|req: 18/53] 223.73.111.177 () {44 vars in 752 bytes} [Tue May 18 05:54:37 2021] GET / => generated 3583 bytes in 19 msecs (HTTP/2.0 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16499|app: 0|req: 10/54] 223.73.111.177 () {44 vars in 752 bytes} [Tue May 18 05:54:40 2021] GET / => generated 3583 bytes in 4 msecs (HTTP/2.0 404) 3 headers in 102 bytes (1 switches on core 1)
+Not Found: /
+[pid: 16499|app: 0|req: 11/55] 223.73.111.177 () {44 vars in 752 bytes} [Tue May 18 05:54:43 2021] GET / => generated 3583 bytes in 3 msecs (HTTP/2.0 404) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 16503|app: 0|req: 25/56] 223.73.111.177 () {44 vars in 762 bytes} [Tue May 18 05:54:45 2021] GET /home/ => generated 1883 bytes in 59 msecs (HTTP/2.0 200) 3 headers in 110 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+tensor([1])
+tensor([1])
+tensor([1])
+tensor([1])
+DAMN ! worker 2 (pid: 16499) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 30391)
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+----------------
+----------------
+----------------
+/
+[8.3028855e-05 9.9991691e-01]
+pre_label 0
+The label is N
+------------------
+(279.15833, 277.43655, 344.04526, 320.73593)
+356 (512, 512, 3)
+(43, 65, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_1abc.png
+/
+[8.3028855e-05 9.9991691e-01]
+pre_label 0
+The label is N
+------------------
+(279.15833, 277.43655, 344.04526, 320.73593)
+356 (512, 512, 3)
+(43, 65, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_1abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16501|app: 0|req: 19/57] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:54:51 2021] POST /miniapp/ => generated 113810 bytes in 85733 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 7/58] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:54:51 2021] POST /miniapp/ => generated 113810 bytes in 85704 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+/
+[8.3028855e-05 9.9991691e-01]
+pre_label 0
+The label is N
+------------------
+(279.15833, 277.43655, 344.04526, 320.73593)
+356 (512, 512, 3)
+(43, 65, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_1abc.png
+----------------
+tensor([1])
+tensor([1])
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+/
+[2.456902e-06 9.999975e-01]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+===========================
+[pid: 16503|app: 0|req: 26/59] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:54:51 2021] POST /miniapp/ => generated 86 bytes in 88170 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+tensor([1])
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+----------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+Internal Server Error: /miniapp/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./ZHUYA_web/controller.py", line 53, in get_image
+    result, score,region = detect_and_cls(detect_path)
+  File "./ZHUYA_web/controller.py", line 272, in detect_and_cls
+    result, score= crop_cls(image, image_path.split('/')[-1].split('.')[-2], pt, cls_net, j)
+  File "./ZHUYA_web/controller.py", line 345, in crop_cls
+    for ii, (tooth_data) in enumerate(crop_dataloader):
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib64/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib64/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+[pid: 16497|app: 0|req: 8/60] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:56:17 2021] POST /miniapp/ => generated 113642 bytes in 3579 msecs (HTTP/1.1 500) 4 headers in 130 bytes (1 switches on core 1)
+/
+[8.3028855e-05 9.9991691e-01]
+pre_label 0
+The label is N
+------------------
+(279.15833, 277.43655, 344.04526, 320.73593)
+356 (512, 512, 3)
+(43, 65, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_1abc.png
+----------------
+[pid: 16497|app: 0|req: 9/61] 223.73.111.177 () {46 vars in 825 bytes} [Tue May 18 05:56:21 2021] GET /single_upload/ => generated 16588 bytes in 281 msecs (HTTP/2.0 200) 3 headers in 111 bytes (1 switches on core 1)
+[pid: 16497|app: 0|req: 10/62] 223.73.111.177 () {44 vars in 762 bytes} [Tue May 18 05:56:21 2021] GET /home/ => generated 1883 bytes in 21 msecs (HTTP/2.0 200) 3 headers in 110 bytes (1 switches on core 1)
+/
+[2.456902e-06 9.999975e-01]
+pre_label 0
+The label is N
+------------------
+/pytorch/torch/csrc/autograd/python_function.cpp:638: UserWarning: Legacy autograd function with non-static forward method is deprecated and will be removed in 1.3. Please use new-style autograd function with static forward method. (Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/pytorch/torch/csrc/autograd/python_function.cpp:664: UserWarning: Legacy autograd function object was called twice.  You will probably get incorrect gradients from this computation, as the saved tensors from the second invocation will clobber the saved tensors from the first invocation.  Please consider rewriting your autograd function in the modern style; for information on the new format, please see: https://pytorch.org/docs/stable/notes/extending.html#extending-torch-autograd
+(35.87616, 215.8722, 114.61406, 276.77094)
+356 (512, 512, 3)
+(61, 79, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_0abc.png
+/opt/ZHUYA_web/static/media/miniappdetect/NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+===========================
+[pid: 16501|app: 0|req: 20/63] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:56:17 2021] POST /miniapp/ => generated 86 bytes in 4814 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
+----------------
+/
+[8.3028855e-05 9.9991691e-01]
+pre_label 0
+The label is N
+------------------
+(279.15833, 277.43655, 344.04526, 320.73593)
+356 (512, 512, 3)
+(43, 65, 3)
+398 NCdhfxBas1LT186be2c197a6623435df372977945103
+/opt/ZHUYA_web/static/media/crop/NCdhfxBas1LT186be2c197a6623435df372977945103_1abc.png
+----------------
+/
+[2.456902e-06 9.999975e-01]
+pre_label 0
+The label is N
+------------------
+/opt/ZHUYA_web/static/media/miniappdetect/NCdhfxBas1LT186be2c197a6623435df372977945103.jpg
+===========================
+[pid: 16503|app: 0|req: 27/64] 223.73.111.177 () {46 vars in 977 bytes} [Tue May 18 05:56:19 2021] POST /miniapp/ => generated 86 bytes in 3942 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 1)
